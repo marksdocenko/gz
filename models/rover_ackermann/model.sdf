@@ -358,11 +358,6 @@
 	    <pose relative_to="servo_1">0 0 0 0 0 0</pose>
 	    <axis>
 	      <xyz>0 1 0</xyz>
-	      <limit>
-		<lower>-1.79769e+308</lower>
-		<upper>1.79769e+308</upper>
-		<velocity>50.0</velocity>
-	      </limit>
 	      <dynamics>
 		<spring_reference>0</spring_reference>
 		<spring_stiffness>0</spring_stiffness>
@@ -376,11 +371,6 @@
 	    <pose relative_to="servo_0 ">0 0 0 0 0 0</pose>
 	    <axis>
 	      <xyz>0 1 0</xyz>
-	      <limit>
-		<lower>-1.79769e+308</lower>
-		<upper>1.79769e+308</upper>
-		<velocity>50.0</velocity>
-	      </limit>
 	      <dynamics>
 		<spring_reference>0</spring_reference>
 		<spring_stiffness>0</spring_stiffness>
@@ -394,11 +384,6 @@
 	    <pose relative_to="base_link">-0.192 -.1 0 0 0 0</pose>
 	    <axis>
 	      <xyz>0 1 0</xyz>
-	      <limit>
-		<lower>-1.79769e+308</lower>
-		<upper>1.79769e+308</upper>
-		<velocity>50.0</velocity>
-	      </limit>
 	      <dynamics>
 		<spring_reference>0</spring_reference>
 		<spring_stiffness>0</spring_stiffness>
@@ -412,11 +397,6 @@
 	    <pose relative_to="base_link">-0.192 .1 0 0 0 0</pose>
 	    <axis>
 	      <xyz>0 1 0</xyz>
-	      <limit>
-		<lower>-1.79769e+308</lower>
-		<upper>1.79769e+308</upper>
-		<velocity>50.0</velocity>
-	      </limit>
 	      <dynamics>
 		<spring_reference>0</spring_reference>
 		<spring_stiffness>0</spring_stiffness>
