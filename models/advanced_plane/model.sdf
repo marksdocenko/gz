@@ -691,7 +691,7 @@
         <Cen_ctrl>0.001613</Cen_ctrl>
       </control_surface>
     </plugin>
-    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+    <plugin filename="MulticopterMotorModelOrigin" name="gz::sim::systems::MulticopterMotorModelOrigin">
       <jointName>rotor_puller_joint</jointName>
       <linkName>rotor_puller</linkName>
       <turningDirection>cw</turningDirection>

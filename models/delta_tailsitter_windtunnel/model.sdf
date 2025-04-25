@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<sdf version='1.5'>
+  <model name='delta_tailsitter_windtunnel'>
+    <pose>0 0 1 0 0 0</pose>
+
+    <include merge='true'>
+      <uri>model://delta_tailsitter</uri>
+      <pose>0 2 0 0 0 0</pose>
+    </include>
+
+  <joint name="wind_hinge" type="revolute">
+    <parent>world</parent>
+    <child>base_link</child>
+    <axis>
+      <xyz>0 1 0</xyz>
+      <!-- zero commanded position → free to swing under wind -->
+      <!-- omit <limit><lower>…</lower><upper>…</upper></limit> for full rotation -->
+      <dynamics>
+        <!-- optional small damping to avoid endless oscillation -->
+        <damping>0.1</damping>
+        <friction>0.0</friction>
+      </dynamics>
+    </axis>
+  </joint>
+
+  </model>
+</sdf>

@@ -1,0 +1,3 @@
+/home/marksdocenko/origin-robotics/PX4-Autopilot/Tools/simulation/gz/plugins/kinematic_link_plugin/build/CMakeFiles/KinematicLinkPlugin.dir
+/home/marksdocenko/origin-robotics/PX4-Autopilot/Tools/simulation/gz/plugins/kinematic_link_plugin/build/CMakeFiles/edit_cache.dir
+/home/marksdocenko/origin-robotics/PX4-Autopilot/Tools/simulation/gz/plugins/kinematic_link_plugin/build/CMakeFiles/rebuild_cache.dir
